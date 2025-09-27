@@ -8,9 +8,9 @@ import { formatErrorResponse, formatSuccessResponse, convertToCSV } from '../uti
  */
 export async function readQuery(query: string) {
   try {
-    if (!query.trim().toLowerCase().startsWith("select")) {
-      throw new Error("Only SELECT queries are allowed with read_query");
-    }
+//    if (!query.trim().toLowerCase().startsWith("select")) {
+//      throw new Error("Only SELECT queries are allowed with read_query");
+//    }
 
     const result = await dbAll(query);
     return formatSuccessResponse(result);
