@@ -1,9 +1,9 @@
 {
-    "name": "@executeautomation/database-server",
+    "name": "@jamieleecool/database-server",
     "version": "1.1.0",
     "description": "MCP server for interacting with SQLite and SQL Server databases by ExecuteAutomation",
     "license": "MIT",
-    "author": "ExecuteAutomation, Ltd (https://executeautomation.com)",
+    "author": "fork from ExecuteAutomation, Ltd (https://executeautomation.com)",
     "homepage": "https://github.com/executeautomation/mcp-database-server",
     "bugs": "https://github.com/executeautomation/database-server/issues",
     "type": "module",
